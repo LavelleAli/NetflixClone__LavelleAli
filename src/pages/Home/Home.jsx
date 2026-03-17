@@ -6,6 +6,7 @@ import hero__title from "../../assets/hero_title.png";
 import play__icon from "../../assets/play_icon.png";
 import info__icon from "../../assets/info_icon.png";
 import TitleCards from "../../components/TitleCards/TitleCards";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
         <TitleCards title ={"Upcoming"} />
         <TitleCards title ={"Top Pics for You"} />
       </div>
+      <Footer/>
     </div>
   );
 };
